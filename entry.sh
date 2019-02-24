@@ -9,11 +9,11 @@ mkdir -p "${monitordir}"
 # check for config file
 if [ ! -f "${monitordir}/config.php" ]; then
         echo "Config File not found, adding default."
-        cp "/var/www/html/modules/config.sample.php" "${monitordir}/config.php"
+        cp "/var/www/html/nanoNodeMonitor/modules/config.sample.php" "${monitordir}/config.php"
 fi
 
 # create config symlink
-ln -s $monitordir/config.php /var/www/html/modules/config.php
+ln -s $monitordir/config.php /var/www/html/nanoNodeMonitor/modules/config.php
 
 # change folder rights so www-data can read
 chmod 755 /opt
