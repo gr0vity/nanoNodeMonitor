@@ -13,12 +13,12 @@
 // corresponding Nano / Banano values.
 
 // Currency 'nano' or 'banano' or 'nano-beta'
-// $currency = 'nano';
+$currency = 'nano';
 
 // Theme of your Node Monitor
 // Nano Themes:   'dark' or 'light'
 // Banano Themes: 'banano'
-// $themeChoice = 'light';
+$themeChoice = 'light';
 
 // Choice of block explorer
 // Nano Explorers:      'nanode', 'ninja', 'nanoexplorer', 'nanowatch', 'nanocrawler', 'nifni'
@@ -37,7 +37,7 @@
 // $nodeLocation = '';
 
 // A welcome message shown on top
-// $welcomeMsg = 'Welcome to Nano Node Monitor';
+$welcomeMsg = 'Welcome to Nano Node Monitor';
 
 // ----------- Cache Engine -----------
 
@@ -68,13 +68,13 @@
 // ----------- Node Variables -----------
 
 // IP address for RPC (default: [::1])
-// $nanoNodeRPCIP   = '[::1]';
+$nanoNodeRPCIP   = 'node';
 
 // Port for RPC (default: 7076)
 // Nano nodes typically use port 7076.
 // Nano Beta nodes typically use port 55000.
 // Banano nodes typically use port 7072.
-// $nanoNodeRPCPort = '7076';
+$nanoNodeRPCPort = '7076';
 
 // Account of this node
 // $nanoNodeAccount = 'xrb_1f56swb9qtpy3yoxiscq9799nerek153w43yjc9atoaeg3e91cc9zfr89ehj';
